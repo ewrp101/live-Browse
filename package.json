@@ -1,0 +1,34 @@
+{
+  "name": "browser-automation",
+  "version": "1.0.0",
+  "description": "Browser Automation Library - 浏览器自动化库",
+  "main": "src/index.js",
+  "bin": {
+    "browser-server": "./server.js"
+  },
+  "scripts": {
+    "start-lightpanda": "./lightpanda-x86_64-linux.bin serve --host 127.0.0.1 --port 9222",
+    "serve": "node server.js",
+    "serve:dev": "node server.js --no-ws",
+    "test": "playwright test",
+    "test-ui": "playwright test --ui"
+  },
+  "keywords": [
+    "browser-automation",
+    "playwright",
+    "web-scraping"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "dotenv": "^16.3.1",
+    "jsdom": "^29.0.1",
+    "playwright-core": "^1.58.2",
+    "ws": "^8.14.2",
+    "xml2js": "^0.6.2"
+  }
+}

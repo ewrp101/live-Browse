@@ -1,0 +1,55 @@
+# Secrets
+.env
+.env.*
+!*.example
+!*.example.local
+
+# Browser binaries
+lightpanda-*
+*.bin
+
+# Node modules
+node_modules/
+
+# Browser caching
+playwright/.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test reports
+playwright-report/
+test-results/
+*.png
+*.pdf
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Package output
+dist/
+build/
+
+# Documentation that's just tracking/clutter
+项目整理总结.md
+清理报告-*.md
+项目清理报告-*.md
+项目清理报告 - 生产级.md
+项目整理总结.md
+项目清理报告-*.md
+
+# Archive clutter (optional - keep if useful)
+# archive/
+
+# Third-party cloned repository (external mirror, has its own .git)
+user-agents/
